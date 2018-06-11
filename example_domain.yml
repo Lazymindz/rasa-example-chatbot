@@ -1,0 +1,24 @@
+slots:
+  location:
+    type: text
+
+intents:
+- greet
+- weather
+
+entities:
+- location
+
+templates:
+  utter_greet:
+    - "Hello there! how can I help"
+    - "How are doing today"
+    - "Hi There!"
+    - "Yes bud. how can I help"
+  utter_ask_location:
+    - "in what location?"
+
+actions:
+- utter_greet
+- utter_ask_location
+- actions.ActionWeather

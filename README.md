@@ -1,1 +1,3 @@
-# rasa-faq-chatbot
+# rasa-example-chatbot
+
+###### Steps for the Example to follow soon

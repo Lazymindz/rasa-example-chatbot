@@ -1,0 +1,13 @@
+{
+  "states": [
+    "intent_greet", 
+    "intent_weather", 
+    "entity_location", 
+    "slot_location_0", 
+    "prev_action_listen", 
+    "prev_action_restart", 
+    "prev_utter_greet", 
+    "prev_utter_ask_location", 
+    "prev_action_weather"
+  ]
+}

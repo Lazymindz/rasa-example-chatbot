@@ -1,0 +1,64 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "Hello",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Hi",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Weather in Nottingham",
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 11,
+            "end": 21,
+            "value": "Nottingham",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Weather in Leicester",
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 11,
+            "end": 20,
+            "value": "Leicester",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Weather in Birmingham",
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 11,
+            "end": 21,
+            "value": "Birmingham",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "weather in London",
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "London",
+            "entity": "location"
+          }
+        ]
+      }
+    ]
+  }
+}
